@@ -20,6 +20,7 @@ public class WordRotate {
                 System.out.println();
         }
     }
+
     public static void main(String[] args) {
         printRotatedString(getScanner());
     }

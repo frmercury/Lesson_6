@@ -6,7 +6,7 @@ package com.company;
 import java.util.Scanner;
 
 public class ProductCodeValidation {
-    public static String getScanner() {              // Ввод строки
+    public static String getScanner() {                                             // Ввод строки
         System.out.println("Input string: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
@@ -25,9 +25,9 @@ public class ProductCodeValidation {
         int validateSum = validator*validator1*validator2;                          //Значение проверяемого идентификатора
 
         if (validateSum == validateCode) {                                          //Проверка соответствия полученного с истинным значений
-            System.out.println("Correct identificator");
+            System.out.println("Correct identifier");
         } else {
-            System.out.println("Wrong identificator");
+            System.out.println("Wrong identifier");
         }
     }
 

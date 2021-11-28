@@ -10,6 +10,7 @@ public class ClassWorkTask {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
+
     public static Integer getLength() {              // Ввод строки
         System.out.println("Input length of the string: ");
         Scanner scanner = new Scanner(System.in);
@@ -22,7 +23,7 @@ public class ClassWorkTask {
         int rightLimit = 0;
         switch (mode) {
             case "1":
-                leftLimit = 97; // letter 'a'
+                leftLimit = 65; // letter 'a'
                 rightLimit = 122; // letter 'z'
                 break;
             case "2":
@@ -43,7 +44,7 @@ public class ClassWorkTask {
         for (int i = 0; i < length; i++) {
             int randomLimitedInt = leftLimit + (int)
                     (random.nextFloat() * (rightLimit - leftLimit + 1));
-            buffer.append((char) randomLimitedInt);
+            buffer.append((char)randomLimitedInt);
         }
         str1 = buffer.toString();
         String generatedStr = str1.replaceAll("[^\\w-]|_", "");

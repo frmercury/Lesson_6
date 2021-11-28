@@ -2,6 +2,8 @@ package com.company;
 
 import java.util.Scanner;
 
+//Given a phrase and a letter (or series of letters) remove all occurrences of that letter(s) in the phrase.
+
 public class LetterRemoval {
 
     public static String getString() {              // Ввод строки

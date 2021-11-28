@@ -2,10 +2,10 @@ package com.company;
 
 import java.util.Scanner;
 
-public class ToUpperCase {
-
 //Change given text into all upper case or lower case or change the first letter of each word (or
 //sentence) to upper and the rest to lower
+
+public class ToUpperCase {
 
     public static String getScanner() {              // Ввод строки
         System.out.println("Input string: ");

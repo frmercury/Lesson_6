@@ -2,8 +2,6 @@ package com.company;
 
 //Count words of each length. Count the number of words of each length in some text.
 
-import java.util.Scanner;
-
 public class WordsLengthCounter {
 
     public static void wordsLength (String[] arr, int length) {
@@ -21,7 +19,6 @@ public class WordsLengthCounter {
             }
         }
     }
-
 
     public static void main(String[] args) {
         String[] arr = {"asdf", "as", "asdf", "fdsa", "fas", "fdsa", "as", "as","as","as","as", "fas"};
