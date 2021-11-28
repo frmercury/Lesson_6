@@ -17,6 +17,7 @@ public class WordsCount {
         return words.length;
     }
 
+
     public static void main(String[] args) {
         System.out.println("Колличество слов в строке: " + wordsCounter(getScanner()));
     }
