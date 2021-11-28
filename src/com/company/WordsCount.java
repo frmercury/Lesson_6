@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class WordsCount {
 
     public static String getScanner() {              // Ввод строки
-        System.out.println("Input string: ");
+        System.out.println("Input some text: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }

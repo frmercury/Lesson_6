@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ClassWorkTask {
 
     public static String getScanner() {              // Ввод строки
-        System.out.println("Input mode of the string: alpha = 1; numeric = 2; alphanumeric = 3");
+        System.out.println("Input mode of the random string: alpha = 1; numeric = 2; alphanumeric = 3");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }

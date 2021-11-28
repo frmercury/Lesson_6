@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class ToUpperCase {
 
     public static String getScanner() {              // Ввод строки
-        System.out.println("Input string: ");
+        System.out.println("Input string to convert: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
@@ -33,9 +33,9 @@ public class ToUpperCase {
     }
 
     public static void main (String[]args){
-    System.out.println(toLowerCase(getScanner()));
-    System.out.println(toUpperCase(getScanner()));
-    System.out.println(firstLetterToUpper(getScanner()));
+    System.out.println(" To lowercase: " + "\n" + toLowerCase(getScanner()));
+    System.out.println("To UPPERCASE: " + "\n" + toUpperCase(getScanner()));
+    System.out.println("Capitalize 1st letter: " + "\n" + firstLetterToUpper(getScanner()));
 
     }
 }

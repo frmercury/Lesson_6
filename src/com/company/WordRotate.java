@@ -2,10 +2,12 @@ package com.company;
 
 import java.util.Scanner;
 
+//Given a word, print a square made from letter rotations of the word as in:
+
 public class WordRotate {
 
     public static String getScanner() {              // Ввод строки
-        System.out.println("Input string: ");
+        System.out.println("Input word to rotate: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }

@@ -13,7 +13,7 @@ public class LetterRemoval {
         return s;
     }
     public static String removedValue() {
-        System.out.println("Replaced value: ");
+        System.out.println("Value need to remove: ");
         Scanner sc = new Scanner(System.in);
         String value = sc.nextLine();
         return value;

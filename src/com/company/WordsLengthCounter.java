@@ -21,7 +21,7 @@ public class WordsLengthCounter {
     }
 
     public static void main(String[] args) {
-        String[] arr = {"asdf", "as", "asdf", "fdsa", "fas", "fdsa", "as", "as","as","as","as", "fas"};
+        String[] arr = {"asdf", "as", "asdf", "fdsa", "ret", "fas", "fdsa", "as", "fas", "ty"};
         int length = arr.length;
         wordsLength(arr, length);
     }
